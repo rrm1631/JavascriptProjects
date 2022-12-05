@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>QuizPro</title>
+</head>
+<body>
+    
+    <!-- TOP SECTION -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">
+                QuizPro
+            </h2>
+        </div>
+    </div>
+
+
+    <!-- RESULT SECTION -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>
+                Your Score: <span class="text-primary display-4 p-3">0%</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- QUIZ SECTION -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">
+                Questions
+            </h2>
+
+
+            <form action="" class="quiz-form text-light">
+
+                <!-- Q1 -->
+                <div class="my-5">
+                    <p class="lead font-weigth-normal">
+                        It returns the first element that is a descendant of node that matches selectors.
+                    </p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="" class="form-check-label">querySelector</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label for="" class="form-check-label">querySelectorAll</label>
+                    </div>
+                </div>
+
+                 <!-- Q2 -->
+                 <div class="my-5">
+                    <p class="lead font-weigth-normal">
+                        You have 3 apples, you gave 1 to Mario and 1 to Luigi. How many apples do you still have?
+                    </p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="" class="form-check-label">0</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label for="" class="form-check-label">1</label>
+                    </div>
+                </div>
+
+
+                <!-- Q3 -->
+                <div class="my-5">
+                    <p class="lead font-weigth-normal">
+                        This method converts a string to uppercase letters.
+                    </p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for="" class="form-check-label">toUpperCase()</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label for="" class="form-check-label">toLowerCase() </label>
+                    </div>
+                </div>
+
+
+                <!-- Q4 -->
+                <div class="my-5">
+                    <p class="lead font-weigth-normal">
+                        It joins all the elements inside the array into a single string
+                    </p>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="" class="form-check-label">join()</label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label for="" class="form-check-label">concat()</label>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light" value="Submit">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
